@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Download</title>
+        <link rel="stylesheet" type="text/css" href="./style/download.css">
+        <link rel="shortcut icon" type="image/png" href="./style/img/logo.png" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("#moto").fadeIn(1000);
+                    $("#vide").fadeIn(2000);
+                    $("#down").fadeIn(3000);
+		            $("#cont").fadeIn(4000);
+		            $("#wiki").fadeIn(5000);
+                });
+            });
+        </script>
+        <div class="header_background">
+        </div>
+    </head>    
+    <body>    
+        <nav>
+            <div class="nav">
+                <div id="title-wrap">
+                    <h1>Volkswagen Golf IV</h1>
+                </div>
+                <ul>
+                    <a>
+                        <button id="home-button">
+                            <li id="home-li" onclick=fade>
+                                <img src="./style/img/logo.png" width="27px" height="27px">
+                            </li>
+                        </button>
+                    </a>
+                    <li id="moto" class="hidd"><a href="index.html">Home</a></li>
+                    <li id="vide" class="hidd"><a href="motorizare.html">Motorizare</a></li>
+                    <li id="down" class="hidd"><a href="video.html">Video</a></li>
+                    <li id="cont" class="hidd"><a href="contact.html">Contact</a></li>
+                    <li id="wiki" class="hidd"><a href="https://ro.wikipedia.org/wiki/Volkswagen_Golf_IV">Wiki</a></li>
+                </ul>
+            </div>
+            <div class="main_data">
+                <h2>Download</h2>
+                <p>Vroooom, think before you act!</p>
+                <p>Descarca acum:</p>
+                <br>
+                <a id="download-button" href="./style/img/download.jpg" download>Download</a>
+            </div>
+            <div class="end">
+                <p id="end2">&copy;Vatasoiu Ioan-Daniel 2018</p>
+            </div>
+        </nav>
+    </body>
+</html>

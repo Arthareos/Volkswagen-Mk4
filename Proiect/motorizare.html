@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Motorizare</title>
+        <link rel="stylesheet" type="text/css" href="./style/motorizare.css">
+        <link rel="shortcut icon" type="image/png" href="./style/img/logo.png" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("#moto").fadeIn(1000);
+                    $("#vide").fadeIn(2000);
+                    $("#down").fadeIn(3000);
+		            $("#cont").fadeIn(4000);
+		            $("#wiki").fadeIn(5000);
+                });
+            });
+        </script>
+        <div class="header_background">
+        </div>
+    </head>    
+    <body>    
+        <nav>
+            <div class="nav">
+                <div id="title-wrap">
+                    <h1>Volkswagen Golf IV</h1>
+                </div>
+                <ul>
+                    <a>
+                        <button id="home-button">
+                            <li id="home-li" onclick=fade>
+                                <img src="./style/img/logo.png" width="27px" height="27px">
+                            </li>
+                        </button>
+                    </a>
+                    <li id="moto" class="hidd"><a href="index.html">Home</a></li>
+                    <li id="vide" class="hidd"><a href="video.html">Video</a></li>
+                    <li id="down" class="hidd"><a href="download.html">Download</a></li>
+                    <li id="cont" class="hidd"><a href="contact.html">Contact</a></li>
+                    <li id="wiki" class="hidd"><a href="https://ro.wikipedia.org/wiki/Volkswagen_Golf_IV">Wiki</a></li>
+                </ul>
+            </div>
+            <div class="main_data">
+                <h2>Istoria lui Golf IV</h2>
+                <p>
+                    Inainte de a incepe dezvoltarea cele de-a patra generatii a lui Golf, 
+                    VW a luat decizia de a lansa un produs pozitionat mai sus pe piata, 
+                    pentru a face loc in zona de pret mai mic pentru Skoda si Seat. Asa a 
+                    luat nastere una dintre cele mai apreciate compacte din istorie. In momentul 
+                    lansarii, in toamna anului 1997, Golf IV era extrem de apropiat din punct de 
+                    vedere al calitatii cu ceea ce oferea Audi A3, dar la un pret mai mic. 
+                    Din acest motiv, vanzarile au fost un adevarat succes, Golf IV fiind cea 
+                    mai bine vanduta masină din Europa in anul 2001.
+                </p>
+                <h2>Versiuni de motorizari</h2>
+                <p>
+                    Pe parcursul ciclului sau de productie, Golf IV a avut nu mai putin de 23 de 
+                    versiuni de motorizari, ceea ce l-a facut foarte versatil si potrivit pentru 
+                    nevoile fiecaruia. Gama de motorizari pe benzina a inceput de la o cilindree 
+                    de 1,4 litri si a continuat cu 1.6 in diferite versiuni de putere, cu 1.8 
+                    aspirat si turbo, 2 litri aspirat, dar si motoare V5 si VR6 cu cilindree de 
+                    2,3/2,8/3,2 litri. Puterile au variat de la 75 CP la 241 CP, cat avea versiunea 
+                    de top R32. In ceea ce priveste motoarele pe motorina este curios ca cilindreea 
+                    a fost unica: 1,9 litri (1986 cc). Totusi, versiunile de putere oferite au fost 
+                    opt la numar: una aspirata cu denumirea SDI si 68 CP, iar toate celelalte cu turbo, 
+                    pompe-duse si cu puteri cuprinse intre 90 CP si 150 CP (TDI). Practic, din 
+                    punct de vedere al motorizarii exista Golf-ul perfect pentru fiecare.
+                </p>
+            </div>
+            <div class="end">
+                <p id="end2">&copy;Vatasoiu Ioan-Daniel 2018</p>
+            </div>
+        </nav>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+Proiectul va fi insotit de documentatie si va fi salvat pe un suport electronic ce va fi atasat documentatiei si va fi predat pana in data de 13 Aprilie 2018.
+
+Reguli de editare a documentatiei:
+1. Se va folosi fontul Times New Roman cu dimensiune de 12 si spatiere intre randuri de 1,5
+2. Paginile vor fi numerotate
+3. Coperta nu se numeroteaza(aici folositi modelul primit la care completati tema, clasa si numele vostru ...:)
+4. Numarul minim de pagini este de 10 fara coperta( si nu se scrie fata-verso)
+5. Sursa( aici preluati efectiv o parte din codul sursa)
+
+
+ Respectati ordinea de la argument:
+-	Cuprins( acesta se poate genera automat)
+-	Argument( ceea ce v-am trimis si la care completati spatiile libere, daca aveti alte idei sunt in regula daca mi le aratati inainte de tiparire)
+-	Scurt istoric al internetului(numai daca nu aveti destule pagini)
+-	Descrierea si motivarea teoreticã a proiectului( parte obligatorie in care precizati de ce v-ati ales tema, o descrieti din doua puncte de vedere: elemente componente, eventual cu print-screen-uri si tehnic adica elemente de programare folosite( pentru HTML: am utilizat tabele pentru...., am utilizat link-uri pentru..... am utilizat liste..... am utilizat css, javaScript, jQuery, Bootstrap, etc)
+-	Bibliografie(obligatorie si precizati site-urile din care a-ti preluat imagini, date etc si eventual HTML- Pentru Incepatori Suport de curs scoala)
